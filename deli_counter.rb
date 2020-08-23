@@ -6,7 +6,7 @@ def line(arr)
     message = "The line is currently:"
     arr.each_index do |i|
       puts index
-      message = message + (index+1).to_s + ". #{i}"
+      message += + (index+1).to_s + ". #{i}"
     end
     puts message
   else
