@@ -15,3 +15,7 @@ def take_a_number(arr, name)
   arr.push(name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
+
+def now_serving(arr)
+  puts "Currently service #{arr[0]}"
+end
