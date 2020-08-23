@@ -6,5 +6,6 @@ def line(arr)
     message = "The line is currently:"
     arr.each do |i,index|
       message += index+1 + ". #{i}"
+    end
   end
 end
