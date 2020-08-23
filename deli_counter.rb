@@ -11,4 +11,6 @@ def line(arr)
   end
 end
 
-def take_a_number
+def take_a_number(arr, name)
+  arr.push(name)
+end
