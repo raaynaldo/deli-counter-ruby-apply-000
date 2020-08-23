@@ -2,8 +2,8 @@
 katz_deli = []
 
 def line(arr)
-  puts arr
   if arr.length != 0
+    puts arr
     message = "The line is currently:"
     arr.each do |i,index|
       puts index
