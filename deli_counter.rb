@@ -5,6 +5,6 @@ def line(arr)
   if katz_deli.length != 0
     message = "The line is currently:"
     arr.each do |i,index|
-      message +=
+      message += index+1 + ". #{i}"
   end
 end
